@@ -1,0 +1,13 @@
+@media (max-width: 767px){
+    .header,.header-block,.footer{
+        flex-direction: column;
+        width: 100%;
+    
+  
+    } 
+    .color{
+        width: 100%;
+        
+    }
+    
+}

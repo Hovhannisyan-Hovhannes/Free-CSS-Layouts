@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.container{
+    max-width: 900px;
+    width: 100%;
+    margin:0 auto;
+    padding: 0 15px;
+
+}
+
+.block {
+    min-height: 100px;
+    background-color: #f3f2ed;
+    padding: 10px;
+}
+a{
+    color: black;
+    font-size: medium;
+}
+  .header-block{
+    display: flex;
+    gap: 20px;
+    margin-top: 2px;
+  }
+  .color{
+    width:calc(25% - 7.5px);
+    min-height: 500px;
+    background-color: #CCC8B3;
+  }
+  .paint{
+    width: 300px;
+    min-height: 500px;
+    background-color: #F6F0E0;
+  }
+  .stain{
+    margin-top: 2px;
+    min-height: 100px;
+    background-color: #BFBD93;
+  }
